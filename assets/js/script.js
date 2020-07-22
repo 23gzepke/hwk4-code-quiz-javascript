@@ -39,7 +39,7 @@ function setTimer() {
 
 function makeQuestions() {
     questionNumber++;
-    answer = questions[questionNumber].answer
+    answer = questions[questionNumber].answer;
 
     questionHead.textContent = questions[questionNumber].title;
     answerChoices.innerHTML = "";
